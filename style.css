@@ -1,6 +1,8 @@
+
+
 .logo-navbar{
-    height: 60px;
-    width: 90px;
+    height: 70px;
+    width: 100px;
 }
 .ul-custom{
     list-style: none;
@@ -8,4 +10,13 @@
 li>a{
     color: rgb(80, 74, 74);
     text-decoration: none;
+}
+
+
+
+.img-custom{
+    height: 860px;
+    position: relative;
+    bottom: 860px;
+    
 }
