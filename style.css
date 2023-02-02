@@ -1,4 +1,11 @@
 .logo-navbar{
-    height: 300px;
-    width: 300px;
+    height: 60px;
+    width: 90px;
+}
+.ul-custom{
+    list-style: none;
+}
+li>a{
+    color: rgb(80, 74, 74);
+    text-decoration: none;
 }
