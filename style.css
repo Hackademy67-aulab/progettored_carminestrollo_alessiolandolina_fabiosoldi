@@ -15,8 +15,24 @@ li>a{
 
 
 .img-custom{
-    height: 860px;
-    position: relative;
-    bottom: 860px;
-    
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+@media screen and (max-width : 900px){
+    .img-custom{
+        height: 30px;
+        width: 30px;
+        background-color: blue;
+    }
+    .red-mountain{
+        height: 200px;
+        width: 390px;
+        background-color: darkgreen;
+    }
+}
+
+.image-sfondo{
+    background-image: url("/media/Montagna\ rossa.jpg");
 }
