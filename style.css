@@ -12,12 +12,20 @@ li>a{
     text-decoration: none;
 }
 
-
+.image-sfondo{
+    background-image: url("/media/Montagna\ rossa.jpg");
+    background-size: cover;
+    height: 200px;
+}
 
 .img-custom{
     position: absolute;
     bottom: 0px;
     left: 0px;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+
 }
 
 @media screen and (max-width : 900px){
@@ -33,6 +41,7 @@ li>a{
     }
 }
 
-.image-sfondo{
-    background-image: url("/media/Montagna\ rossa.jpg");
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 30px;
 }
