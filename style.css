@@ -29,6 +29,9 @@ li>a{
     margin: 0px;
 
 }
+.icon-custom{
+    color: red;
+}
 
 @media screen and (max-width : 400px){
     .img-custom{
