@@ -1,4 +1,6 @@
-
+.body-custom{
+    background-color:rgb(236, 236, 236);
+}
 
 .logo-navbar{
     height: 70px;
@@ -28,20 +30,26 @@ li>a{
 
 }
 
-@media screen and (max-width : 900px){
+@media screen and (max-width : 400px){
     .img-custom{
         height: 30px;
         width: 30px;
-        background-color: blue;
+        
     }
     .red-mountain{
-        height: 200px;
-        width: 390px;
-        background-color: darkgreen;
+        height: 20x;
+        width: 30px;
+        
     }
 }
+
+
+
+
+
 
 h1{
     font-family: 'Noto Sans', sans-serif;
     letter-spacing: 30px;
 }
+
