@@ -129,3 +129,27 @@ h1{
     left: 160px;
     top: -7px;
 }
+
+.img-tonda-dx{
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50% ;
+    border: solid rgb(112, 12, 12);
+    
+}
+
+.footer-custom{
+    min-height: 100px;
+    background-color: rgb(139, 1, 2);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.img-sfondo{
+    height: 400px;
+    background-image: url(./media/other.png);
+}
