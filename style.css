@@ -44,6 +44,7 @@ li>a{
     height: 400px;
     width: 380px;
     }
+   
 }
 
 
@@ -61,6 +62,13 @@ h1{
 .btn-height{
     height: 50px;
 }
+
+.alberi-sfondo{
+    background-image: url("./media/single.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
 /* TIMELINE */
 
 .puntino::before{
@@ -73,4 +81,51 @@ h1{
     position: absolute;
     left: -12px;
     
+}
+
+/* TIMELINE ORIZZONTALE */
+
+.pallino1::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 159px;
+    top: -7px;
+}
+.pallino2::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 160px;
+    top: -7px;
+}
+.pallino3::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 160px;
+    top: -7px;
+}
+.pallino4::before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 160px;
+    top: -7px;
 }
